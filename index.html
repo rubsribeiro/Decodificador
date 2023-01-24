@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Alura</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="https://www.alura.com.br/"><img class="logo-alura" src="./images/logo-alura.png" alt="Logo Alura"></a>
+    </header>
+
+    <main>
+        <section>
+            <textarea class="textArea" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+
+            <p class="info">
+                <img class="icone" src="./images/exclamacao.png">
+                Apenas letras minúsculas e sem acento.
+            </p>
+            
+            <div class="btn">
+                <button class="btn-cript" onclick="btnCriptografar()">Criptografar</button>
+                <button class="btn-descript" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            
+            <textarea class="mensagem" id="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>  
+            
+        </section>
+    </main> 
+    
+    <script src="./script.js"></script>
+</body>
+</html>

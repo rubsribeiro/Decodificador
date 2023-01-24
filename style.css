@@ -1,0 +1,143 @@
+* {
+    background-color: #E9ECF8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logo-alura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 8%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.logo-alura:hover {
+    transform: scale(1.1);
+}
+
+.textArea {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+
+}
+
+::placeholder {color: #0A3871;}
+    .textArea:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background-color: white;
+    background-image: url(./images/boneco.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position:center;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    margin-left: 90px;
+    padding-left: 20px;
+    position: absolute;  
+    
+}
+
+
+.nenhuma-msg {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343A40;
+    text-align: center;
+}
+
+.digite {
+    font-size: 16px;
+    color:#343A40;
+    text-align: center;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.info {
+    color: #495057;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.btn {
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+}
+
+.btn-cript {
+    background-color: #0A3871;
+    color: white;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-cript:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.btn-descript {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-descript:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    background-color:white;
+    color: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 350px;
+    position: absolute;
+    width: 336px;
+    cursor: pointer;
+}
+
+.btn-copiar:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+h2 {
+    font-size: 16px;
+    position: absolute;
+}
+
+.mensagem p {
+    font-size: 24px;
+    text-align: center;
+}
